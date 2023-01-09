@@ -1,0 +1,18 @@
+SELECT * FROM Customers;
+SELECT * FROM Customers
+ORDER BY CustomerName ASC;
+SELECT ContactName, City FROM Customers;
+SELECT DISTINCT City from Customers;
+SELECT * FROM Customers WHERE CustomerName LIKE 'A%';
+SELECT COALESCE(Address, 'email not provided! ') FROM Customers;
+SELECT * FROM Customers ORDER BY ContactName DESC ;
+select CustomersName from Customers where City = 'Mexico' and 'France' and 'Germany' ;
+select * from Customers where City like '____';
+select avg(PostalCode) as avg  from Customers;
+select * from Customers where City like '%t%';
+
+
+
+
+
+
