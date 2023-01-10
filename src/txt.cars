@@ -445,3 +445,13 @@ select color from cars where color = 'Red';
 select color from cars where color = 'Blue';
 select * from cars where year_of_issue between 1995 and 2005;
 select max(price) from cars fetch first 10 rows only;
+
+select * from cars order by year_of_issue desc limit 10 offset  5;
+select* from cars where brand = 'Chevrolet';
+select * from students where = 'Hyundai';
+select avg(year_of_issue) as avg  from cars;
+select * from cars where brand <> 'Toyota';
+select * from cars where brand = 'Mercedes-Benz';
+select * from cars order by year_of_issue desc limit 10 offset  5;
+select * from cars order by year_of_issue desc;
+

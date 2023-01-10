@@ -10,6 +10,9 @@ select CustomersName from Customers where City = 'Mexico' and 'France' and 'Germ
 select * from Customers where City like '____';
 select avg(PostalCode) as avg  from Customers;
 select * from Customers where City like '%t%';
+select * from Customers where City = 'Mexico';
+select * from Customers where City = 'Germany' and 'Ispani';
+
 
 
 
